@@ -59,51 +59,35 @@ export default function FoundersPage() {
                 <div className="space-y-4 text-sm leading-relaxed text-gray-700 relative">
                   <div className="absolute -left-2 top-0 bottom-0 w-1 bg-gray-200 rounded-full opacity-50"></div>
                   <p className="pl-4">
-                    Product Designer há 10 anos, com experiência em projetos B2B
-                    e B2C para startups e empresas tradicionais. Desempenhei
-                    papéis cruciais na inovação digital da Rádio Antena 1, na
+                    Gustavo é um Product Designer experiente com 10 anos de
+                    carreira, especializado em projetos B2B e B2C para startups
+                    e empresas tradicionais. Sua trajetória inclui papéis
+                    cruciais na inovação digital da Rádio Antena 1, na
                     construção do zero da empresa Mobiauto (agora pertencente ao
                     Banco Pan) e no desenvolvimento de produtos na maior empresa
                     de dados da América Latina, a Cortex-Intelligence.
                   </p>
 
                   <p className="pl-4">
-                    <strong>Expertise em:</strong>
-                    <br />
-                    ✔️ Pesquisas e testes com usuários
-                    <br />
-                    ✔️ Prototipação e wireframes
-                    <br />
-                    ✔️ Sistema de design
-                    <br />
-                    ✔️ Facilitação e workshops (Design sprint, Design thinking,
-                    etc)
-                    <br />
-                    ✔️ Sistemas e plataformas SaaS
-                    <br />
-                    ✔️ Gerenciamento de equipes e produtos
-                    <br />
-                    ✔️ Planejamento, priorização e métricas de desempenho
+                    Sua expertise abrange pesquisas e testes com usuários,
+                    prototipação e wireframes, sistema de design, facilitação e
+                    workshops (Design sprint, Design thinking), sistemas e
+                    plataformas SaaS, gerenciamento de equipes e produtos, e
+                    planejamento, priorização e métricas de desempenho.
                   </p>
 
                   <p className="pl-4">
-                    <strong>Outras habilidades:</strong>
-                    <br />
-                    ✔️ Experiência em trabalhar em equipes multidisciplinares e
-                    com práticas ágeis
-                    <br />
-                    ✔️ Proativo e solucionador de problemas (atuei como Product
-                    Owner/Manager quando necessário)
-                    <br />
-                    ✔️ Facilitador, colaborativo e capaz de construir boas
-                    relações internas e externas
-                    <br />
-                    ✔️ Mentor de designers e promotor da cultura de Design no
-                    desenvolvimento de produtos digitais
+                    Com experiência em trabalhar em equipes multidisciplinares e
+                    com práticas ágeis, Gustavo é proativo e solucionador de
+                    problemas, atuando como Product Owner/Manager quando
+                    necessário. É facilitador, colaborativo e capaz de construir
+                    boas relações internas e externas, além de ser mentor de
+                    designers e promotor da cultura de Design no desenvolvimento
+                    de produtos digitais.
                   </p>
 
                   <p className="pl-4">
-                    Fora do trabalho, sou voluntário na ONG Guri, que oferece
+                    Fora do trabalho, é voluntário na ONG Guri, que oferece
                     acesso a atividades culturais e educacionais para crianças e
                     adolescentes em situação de vulnerabilidade social.
                   </p>

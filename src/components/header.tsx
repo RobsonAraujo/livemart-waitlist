@@ -109,7 +109,7 @@ export default function Header() {
             <Link href="/">
               <Button
                 size="sm"
-                className="w-full bg-[#4d4d4d] hover:bg-[#4d4d4d] text-white"
+                className="w-full bg-[#4d4d4d] hover:bg-[#606060] text-white"
               >
                 Entrar na Lista
               </Button>
