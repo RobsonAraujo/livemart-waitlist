@@ -37,17 +37,17 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
         >
           <Container className="bg-white rounded-[20px] mx-auto p-[40px] max-w-[600px] shadow-2xl border border-gray-200">
             {/* Header with decorative elements */}
-            <Section className="text-center mb-[32px] bg-gradient-to-br from-[#49be78]/20 to-[#49be78]/20 rounded-[20px] p-[32px]">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#49be78] to-[#49be78] rounded-full mx-auto mb-6 flex items-center justify-center">
+            <Section className="text-center mb-[32px] bg-gradient-to-br from-[#FF6161]/20 to-[#FF6161]/20 rounded-[20px] p-[32px]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#FF6161] to-[#FF6161] rounded-full mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl">🔨</span>
               </div>
               <Text className="text-[32px] font-bold text-gray-900 m-0">
-                Bem-vindo ao <span className="text-[#49be78]">LiveMart</span>
+                Bem-vindo ao <span className="text-[#FF6161]">LiveMart</span>
               </Text>
               <Text className="text-[18px] text-gray-600 mt-[16px] mb-[16px]">
                 Estamos muito felizes em ter você na nossa lista de espera
               </Text>
-              <div className="w-20 h-1 bg-gradient-to-r from-[#49be78] to-[#49be78] mx-auto rounded-full"></div>
+              <div className="w-20 h-1 bg-gradient-to-r from-[#FF6161] to-[#FF6161] mx-auto rounded-full"></div>
             </Section>
 
             {/* Main content */}
@@ -83,15 +83,15 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
                 </Text>
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full mr-1"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mr-1"></div>
                     <span className="text-gray-700">Acesso Antecipado</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full mr-1"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mr-1"></div>
                     <span className="text-gray-700">Taxas Reduzidas</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full mr-1"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mr-1"></div>
                     <span className="text-gray-700">Comunidade Exclusiva</span>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 
             {/* Inspirational section */}
             <Section className="text-center mb-[32px]">
-              <div className="bg-gradient-to-r from-[#49be78]/10 to-[#49be78]/10 rounded-[16px] p-[24px]">
+              <div className="bg-gradient-to-r from-[#FF6161]/10 to-[#FF6161]/10 rounded-[16px] p-[24px]">
                 <Text className="text-[24px] mb-[16px]">🔨 ✨ 🎴</Text>
                 <Text className="text-[16px] text-gray-600 italic mb-[8px]">
                   "O futuro do comércio é interativo e divertido."

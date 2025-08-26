@@ -28,9 +28,9 @@ export default function AboutPage() {
             {/* Para Vendedores */}
             <div className="bg-background rounded-2xl p-8 shadow-lg border">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 bg-[#49be78]/20 rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#FF6161]/20 rounded-xl flex items-center justify-center">
                   <svg
-                    className="w-6 h-6 text-[#49be78]"
+                    className="w-6 h-6 text-[#FF6161]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -54,31 +54,31 @@ export default function AboutPage() {
 
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                  <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                   <span className="text-sm font-medium">
                     Anuncie produtos com fotos de alta qualidade
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                  <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                   <span className="text-sm font-medium">
                     Defina preço inicial e tempo de leilão
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                  <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                   <span className="text-sm font-medium">
                     Participe de leilões em tempo real
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                  <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                   <span className="text-sm font-medium">
                     Receba pagamentos seguros
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                  <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                   <span className="text-sm font-medium">
                     Em breve: Faça lives mostrando seus produtos
                   </span>
@@ -158,7 +158,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-[#49be78] rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-[#4d4d4d] rounded-full flex items-center justify-center mx-auto">
                 <span className="text-white font-bold text-xl">1</span>
               </div>
               <h3 className="text-xl font-semibold">Anuncie</h3>
@@ -169,7 +169,7 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-[#49be78] rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-[#4d4d4d] rounded-full flex items-center justify-center mx-auto">
                 <span className="text-white font-bold text-xl">2</span>
               </div>
               <h3 className="text-xl font-semibold">Lance</h3>
@@ -180,7 +180,7 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-[#49be78] rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-[#4d4d4d] rounded-full flex items-center justify-center mx-auto">
                 <span className="text-white font-bold text-xl">3</span>
               </div>
               <h3 className="text-xl font-semibold">Ganhe</h3>
@@ -194,7 +194,7 @@ export default function AboutPage() {
       </section>
 
       {/* Waitlist Section */}
-      <section className="py-16 px-4 md:px-10 bg-[#49be78]/10">
+      <section className="py-16 px-4 md:px-10 bg-[#FF6161]/10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">
             Junte-se à Nossa Lista de Espera
@@ -214,35 +214,35 @@ export default function AboutPage() {
               <div className="grid md:grid-cols-2 gap-4 text-left">
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                     <span className="text-sm">
                       Acesso antecipado à plataforma
                     </span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                     <span className="text-sm">
                       Taxas reduzidas para vendedores
                     </span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                     <span className="text-sm">Benefícios exclusivos</span>
                   </div>
                 </div>
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                     <span className="text-sm">
                       Comunidade de colecionadores
                     </span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                     <span className="text-sm">Vantagem de primeiro acesso</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-[#49be78] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
                     <span className="text-sm">
                       Feedback direto sobre funcionalidades
                     </span>
@@ -254,7 +254,7 @@ export default function AboutPage() {
           <Link href="/">
             <Button
               size="lg"
-              className="cursor-pointer bg-[#49be78] hover:bg-[#49be78] text-white"
+              className="cursor-pointer bg-[#4d4d4d] hover:bg-[#606060] text-white"
             >
               Entrar na Lista de Espera
             </Button>
@@ -289,7 +289,7 @@ export default function AboutPage() {
             <Link href="/">
               <Button
                 size="lg"
-                className="cursor-pointer bg-[#49be78] hover:bg-[#49be78] text-white"
+                className="cursor-pointer bg-[#4d4d4d] hover:bg-[#606060] text-white"
               >
                 Entrar na Lista de Espera
               </Button>

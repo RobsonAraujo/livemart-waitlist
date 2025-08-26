@@ -207,7 +207,7 @@ export default function FoundersPage() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#49be78]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#FF6161]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🎨</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Design de Produtos</h3>
@@ -218,7 +218,7 @@ export default function FoundersPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#49be78]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#FF6161]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💻</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">
@@ -246,7 +246,7 @@ export default function FoundersPage() {
           <Link href="/">
             <Button
               size="lg"
-              className="bg-[#49be78] hover:bg-[#49be78] text-white"
+              className="bg-[#4d4d4d] hover:bg-[#606060] text-white"
             >
               Entrar na Lista de Espera
             </Button>

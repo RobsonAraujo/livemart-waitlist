@@ -17,8 +17,8 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
         <Logo className="w-16 h-16" />
         <div className="flex items-center gap-4 rounded-full border border-border px-4 py-1 relative">
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#49be78] opacity-75" />
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#49be78]" />
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FF6161] opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF6161]" />
           </span>
           <p className="uppercase text-sm font-medium">Lançamento em {year}</p>
         </div>

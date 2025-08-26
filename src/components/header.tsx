@@ -48,7 +48,7 @@ export default function Header() {
         <Link href="/">
           <Button
             size="sm"
-            className="bg-[#49be78] hover:bg-[#49be78] cursor-pointer"
+            className="bg-[#4d4d4d] hover:bg-[#4d4d4d] cursor-pointer"
           >
             <p className="text-white">Entrar na Lista</p>
           </Button>
@@ -109,7 +109,7 @@ export default function Header() {
             <Link href="/">
               <Button
                 size="sm"
-                className="w-full bg-[#49be78] hover:bg-[#49be78] text-white"
+                className="w-full bg-[#4d4d4d] hover:bg-[#4d4d4d] text-white"
               >
                 Entrar na Lista
               </Button>
