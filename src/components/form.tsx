@@ -205,9 +205,8 @@ export default function WaitlistForm({ onSuccessChange }: FormProps) {
                     value={formData.name}
                     onChange={handleChange}
                     placeholder="Nome"
-                    className="flex-grow bg-background border border-border text-foreground px-4 py-3 rounded-[4px]  focus:outline-1 transition-all duration-300 focus:outline-offset-4 focus:outline-[#FF6161]"
+                    className="flex-grow bg-background border border-border text-foreground px-4 py-3 rounded-[4px]  focus:outline-1 transition-all duration-300 focus:outline-offset-4 focus:outline-[#606060]"
                     disabled={loading}
-                    required
                   />
                   <button
                     type="submit"
