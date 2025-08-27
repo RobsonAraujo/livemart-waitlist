@@ -34,7 +34,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
 
 # IDE
 .vscode/
@@ -100,7 +100,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+
 
 # Storybook build outputs
 .out
