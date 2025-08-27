@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "Junte-se à nossa lista de espera exclusiva do LiveMart, a plataforma inovadora de leilões online focada em cartas Pokémon e produtos colecionáveis. Anuncie, participe de leilões em tempo real e descubra um novo jeito de comprar e vender.",
   icons: {
-    icon: "/favicon.svg?v=2",
+    icon: "/favicon.svg?v=3",
   },
 };
 
