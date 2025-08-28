@@ -12,8 +12,8 @@ export default function FoundersPage() {
             Conheça Nossos Fundadores
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Os visionários por trás do LiveMart, combinando experiência em
-            design de produtos e inovação tecnológica
+            Os visionários criando o marketplace de live shopping do Brasil,
+            unindo design excepcional e inovação tecnológica
           </p>
         </div>
       </section>
@@ -181,12 +181,11 @@ export default function FoundersPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Nossa Visão</h2>
           <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-3xl mx-auto">
-            Juntos, Gustavo e Robson trazem uma combinação única de experiência
-            em design de produtos, liderança tecnológica e visão de negócios
-            para criar uma plataforma que revoluciona o comércio online no
-            Brasil. Suas experiências diversas em design de produtos, tecnologia
-            e desenvolvimento de negócios permitem construir soluções que
-            atendem aos desafios reais do mercado de leilões online.
+            Juntos, Gustavo e Robson combinam expertise em design de produtos,
+            liderança tecnológica e visão de negócios para criar o marketplace
+            de live shopping mais inovador do Brasil. Suas experiências permitem
+            construir uma plataforma que conecta pessoas através de experiências
+            de compra sociais e autênticas.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
@@ -196,9 +195,9 @@ export default function FoundersPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Design de Produtos</h3>
               <p className="text-muted-foreground text-sm">
-                Com 10 anos de experiência em design de produtos, nosso
-                co-fundador entende profundamente as necessidades dos usuários e
-                como criar experiências intuitivas e envolventes.
+                Com 10 anos de experiência, nosso co-fundador cria experiências
+                de usuário que conectam pessoas e transformam a forma como
+                compramos e vendemos online.
               </p>
             </div>
             <div className="text-center">
@@ -209,9 +208,9 @@ export default function FoundersPage() {
                 Inovação Tecnológica
               </h3>
               <p className="text-muted-foreground text-sm">
-                Combinando anos de liderança tecnológica com práticas modernas
-                de desenvolvimento, estamos construindo uma plataforma poderosa
-                e fácil de usar para vendedores e compradores.
+                Combinando inovação tecnológica com práticas modernas,
+                construímos uma plataforma que possibilita experiências de live
+                shopping únicas e envolventes.
               </p>
             </div>
           </div>
@@ -221,11 +220,11 @@ export default function FoundersPage() {
       {/* CTA Section */}
       <section className="py-16 px-4 md:px-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">Junte-se à Nossa Missão</h2>
+          <h2 className="text-3xl font-bold mb-6">Faça Parte da Revolução</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Faça parte de uma plataforma construída por profissionais
-            experientes que entendem tanto os desafios de design quanto os
-            tecnológicos do comércio online.
+            Junte-se ao futuro do shopping social, criado por profissionais que
+            entendem como conectar pessoas através de experiências autênticas e
+            inovadoras.
           </p>
           <Link href="/">
             <Button

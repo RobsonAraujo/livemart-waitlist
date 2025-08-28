@@ -15,8 +15,8 @@ export default function FAQ() {
           Perguntas Frequentes
         </h2>
         <p className="sm:text-base text-sm text-muted-foreground text-center">
-          Tudo que você precisa saber sobre o LiveMart e nossa plataforma de
-          leilões.
+          Tudo que você precisa saber sobre o LiveMart, o marketplace de live
+          shopping do Brasil.
         </p>
       </div>
       <div className="w-full max-w-lg">
@@ -30,23 +30,23 @@ export default function FAQ() {
               O que é o LiveMart?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              O LiveMart é uma plataforma inovadora de compra e venda com
-              leilões online, focada inicialmente em cartas Pokémon. Nossa
-              missão é criar um marketplace interativo onde você pode anunciar
-              seus produtos, participar de leilões em tempo real e, em breve,
-              assistir lives dos vendedores mostrando seus produtos.
+              O LiveMart é o marketplace de live shopping do Brasil, onde você
+              compra, vende e se conecta em torno das coisas que ama. Focamos
+              inicialmente em cartas Pokémon, oferecendo uma experiência
+              interativa com leilões dinâmicos, transmissões ao vivo e uma
+              comunidade apaixonada por colecionáveis.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="hover:no-underline">
-              Como funcionam os leilões?
+              Como funciona a experiência de compra?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Os leilões funcionam de forma simples e transparente. Vendedores
-              anunciam seus produtos com preço inicial e tempo de duração.
-              Compradores podem dar lances em tempo real, e o maior lance vence
-              quando o tempo acabar. Tudo acontece de forma dinâmica e
-              competitiva!
+              Nossa plataforma vai oferecer múltiplas formas de compra: leilões
+              dinâmicos em tempo real, vendas diretas e transmissões ao vivo
+              onde vendedores apresentam seus produtos. Tudo acontece de forma
+              transparente e interativa, criando uma experiência única de
+              shopping social.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -54,10 +54,10 @@ export default function FAQ() {
               Quais são os benefícios de entrar na lista de espera?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Membros da lista de espera terão acesso antecipado à plataforma,
-              benefícios exclusivos para vendedores, taxas reduzidas, acesso à
-              comunidade de colecionadores e a oportunidade de dar feedback
-              direto sobre as funcionalidades da plataforma.
+              Membros da lista de espera terão acesso antecipado ao marketplace,
+              benefícios exclusivos, acesso prioritário às transmissões ao vivo,
+              entrada na comunidade de colecionadores e oportunidade de
+              influenciar as funcionalidades da plataforma.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
@@ -65,10 +65,11 @@ export default function FAQ() {
               Como funciona o sistema de pagamentos?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Na primeira versão (V1), os leilões funcionarão com fotos e
-              negociações diretas entre compradores e vendedores. O sistema de
-              pagamentos integrado será implementado nas próximas versões,
-              garantindo segurança e praticidade para todos os usuários.
+              Começamos com leilões baseados em fotos e negociações diretas. Em
+              seguida, implementaremos transmissões ao vivo, sistema de
+              pagamentos integrado e funcionalidades sociais avançadas,
+              evoluindo para o marketplace de live shopping mais completo do
+              Brasil.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
@@ -76,21 +77,10 @@ export default function FAQ() {
               Posso vender outros produtos além de cartas Pokémon?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Inicialmente vamos focar em cartas Pokémon para criar uma
-              comunidade forte e especializada. Mas nossa visão é expandir para
-              outros produtos colecionáveis e itens diversos, sempre mantendo a
-              qualidade e confiança da plataforma.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-6">
-            <AccordionTrigger className="hover:no-underline">
-              Quando a plataforma será lançada?
-            </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground">
-              Estamos trabalhando duro para lançar em breve! A primeira versão
-              terá o sistema de leilões com fotos. Depois vamos adicionar as
-              funcionalidades de lives e pagamentos integrados. Entre na lista
-              de espera para ser um dos primeiros a experimentar!
+              Começamos com cartas Pokémon para construir uma comunidade forte e
+              especializada. Nossa visão é expandir para outros colecionáveis,
+              produtos únicos, mantendo sempre a qualidade e o aspecto social da
+              experiência.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

@@ -110,7 +110,9 @@ export default function Demo({
               </motion.button>
 
               {/* Text below the play button */}
-              <p className="text-gray-300 text-sm">Veja como funciona</p>
+              <p className="text-gray-300 text-sm">
+                Veja o marketplace em ação
+              </p>
             </div>
 
             {/* CRT scan lines effect */}

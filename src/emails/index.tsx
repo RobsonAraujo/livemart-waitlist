@@ -71,9 +71,9 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
               </Text>
 
               <Text className="text-[16px] leading-[26px] text-gray-700 mb-[24px]">
-                Como membro da lista de espera, você terá acesso antecipado,
-                benefícios exclusivos e taxas reduzidas. Tem dúvidas ou ideias?
-                É só responder este email, adoraríamos ouvir você.
+                Como membro da lista de espera, você terá acesso antecipado e
+                benefícios exclusivos. Tem dúvidas ou ideias? É só responder
+                este email, adoraríamos ouvir você.
               </Text>
 
               {/* Benefits highlight box */}
@@ -81,18 +81,48 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
                 <Text className="text-[16px] font-semibold text-gray-900 mb-[16px] text-center">
                   ✨ Seus Benefícios Exclusivos
                 </Text>
-                <div className="grid grid-cols-2 gap-3 text-sm">
+                <div className="space-y-2 text-sm">
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mr-1"></div>
-                    <span className="text-gray-700">Acesso Antecipado</span>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
+                    <span className="text-gray-700">
+                      <strong>Entre primeiro</strong>: acesso antecipado à
+                      plataforma
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mr-1"></div>
-                    <span className="text-gray-700">Taxas Reduzidas</span>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
+                    <span className="text-gray-700">
+                      <strong>Exclusividade</strong>: benefícios especiais para
+                      vendedores
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mr-1"></div>
-                    <span className="text-gray-700">Comunidade Exclusiva</span>
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
+                    <span className="text-gray-700">
+                      <strong>Conexões reais</strong>: comunidade ativa de
+                      colecionadores
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
+                    <span className="text-gray-700">
+                      <strong>Sempre à frente</strong>: novidades em primeira
+                      mão
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
+                    <span className="text-gray-700">
+                      <strong>Sua voz importa</strong>: feedback direto para
+                      moldar o produto
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
+                    <span className="text-gray-700">
+                      <strong>Beta exclusivo</strong>: acesso a beta de novas
+                      funcionalidades
+                    </span>
                   </div>
                 </div>
               </div>

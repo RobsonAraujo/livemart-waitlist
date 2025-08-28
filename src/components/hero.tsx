@@ -27,12 +27,12 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
         <h2 className="text-4xl text-center font-bold text-foreground">
           {isSuccess
             ? "Você está na lista de espera!"
-            : "Junte-se à Lista de Espera do LiveMart"}
+            : "Junte-se à lista de espera"}
         </h2>
         <p className="text-base text-muted-foreground text-center max-w-md">
           {isSuccess
-            ? "Você garantiu sua vaga com sucesso! Vamos te notificar assim que a plataforma for lançada e você poderá começar a participar de leilões incríveis."
-            : "Seja um dos primeiros a experimentar a nova plataforma de leilões online do Brasil. Anuncie suas cartas Pokémon, participe de leilões em tempo real e descubra um novo jeito de comprar e vender."}
+            ? "Você garantiu sua vaga com sucesso! Vamos te notificar assim que a plataforma for lançada e você poderá começar a comprar, vender e se conectar com uma comunidade apaixonada."
+            : "O marketplace de live shopping do Brasil. Compre, venda e se conecte em torno das coisas que você ama. Descubra cartas Pokémon raras, participe de transmissões ao vivo e faça parte de uma nova experiência de compra."}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 w-full max-w-md">
