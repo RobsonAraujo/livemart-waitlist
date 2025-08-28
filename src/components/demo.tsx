@@ -111,7 +111,7 @@ export default function Demo({
 
               {/* Text below the play button */}
               <p className="text-gray-300 text-sm">
-                Veja o marketplace em ação
+                Veja um preview do marketplace
               </p>
             </div>
 
