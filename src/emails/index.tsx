@@ -152,24 +152,17 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
                 Abraços,
               </Text>
               <Text className="text-[18px] font-bold text-gray-900 mb-[4px]">
-                Gustavo e Robson
+                Equipe LiveMart
               </Text>
               <Text className="text-[14px] text-gray-600 mb-[16px]">
-                Fundadores, LiveMart
+                LiveMart Team
               </Text>
               <Text className="text-[14px] text-gray-600 mb-[32px]">
                 <Link
-                  href="https://www.linkedin.com/in/gpinheiros/"
+                  href="https://livemart.com.br"
                   className="text-blue-600 underline"
                 >
-                  LinkedIn do Gustavo
-                </Link>{" "}
-                |{" "}
-                <Link
-                  href="https://www.linkedin.com/in/robson-araujo-carmo/"
-                  className="text-blue-600 underline"
-                >
-                  LinkedIn do Robson
+                  Site da LiveMart
                 </Link>
               </Text>
             </Section>

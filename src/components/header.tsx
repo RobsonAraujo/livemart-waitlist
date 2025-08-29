@@ -40,12 +40,6 @@ export default function Header() {
         >
           Sobre
         </Link>
-        <Link
-          href="/founders"
-          className="text-sm hover:text-primary transition-colors"
-        >
-          Fundadores
-        </Link>
         <ThemeToggle />
         <Link href="/">
           <Button
@@ -103,13 +97,6 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Sobre
-            </Link>
-            <Link
-              href="/founders"
-              className="text-sm hover:text-primary transition-colors py-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Fundadores
             </Link>
             <Link href="/">
               <Button
