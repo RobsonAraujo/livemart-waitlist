@@ -6,6 +6,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { useState } from "react";
 import { Logo } from "./svgs";
+import { ThemeToggle } from "./theme-toggle";
 
 export default function Header() {
   const scrolled = useScroll();
@@ -45,6 +46,7 @@ export default function Header() {
         >
           Fundadores
         </Link>
+        <ThemeToggle />
         <Link href="/">
           <Button
             size="sm"
@@ -55,31 +57,34 @@ export default function Header() {
         </Link>
       </nav>
 
-      {/* Mobile Menu Button */}
-      <button
-        onClick={toggleMenu}
-        className="md:hidden flex flex-col space-y-1 p-2"
-        aria-label="Toggle menu"
-      >
-        <span
-          className={cn(
-            "block w-6 h-0.5 bg-current transition-all duration-300",
-            isMenuOpen && "rotate-45 translate-y-1.5"
-          )}
-        />
-        <span
-          className={cn(
-            "block w-6 h-0.5 bg-current transition-all duration-300",
-            isMenuOpen && "opacity-0"
-          )}
-        />
-        <span
-          className={cn(
-            "block w-6 h-0.5 bg-current transition-all duration-300",
-            isMenuOpen && "-rotate-45 -translate-y-1.5"
-          )}
-        />
-      </button>
+      {/* Mobile Navigation Controls */}
+      <div className="md:hidden flex items-center space-x-3">
+        <ThemeToggle />
+        <button
+          onClick={toggleMenu}
+          className="flex flex-col space-y-1 p-2"
+          aria-label="Toggle menu"
+        >
+          <span
+            className={cn(
+              "block w-6 h-0.5 bg-current transition-all duration-300",
+              isMenuOpen && "rotate-45 translate-y-1.5"
+            )}
+          />
+          <span
+            className={cn(
+              "block w-6 h-0.5 bg-current transition-all duration-300",
+              isMenuOpen && "opacity-0"
+            )}
+          />
+          <span
+            className={cn(
+              "block w-6 h-0.5 bg-current transition-all duration-300",
+              isMenuOpen && "-rotate-45 -translate-y-1.5"
+            )}
+          />
+        </button>
+      </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
