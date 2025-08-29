@@ -81,45 +81,45 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
                 <Text className="text-[16px] font-semibold text-gray-900 mb-[16px] text-center">
                   ✨ Seus Benefícios Exclusivos
                 </Text>
-                <div className="space-y-2 text-sm">
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
-                    <span className="text-gray-700">
+                <div className="space-y-3 text-sm md:text-base">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mt-2 flex-shrink-0 mr-2"></div>
+                    <span className="text-gray-700 text-[13px] md:text-[14px] leading-relaxed">
                       <strong>Entre primeiro</strong>: acesso antecipado à
                       plataforma
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
-                    <span className="text-gray-700">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mt-2 flex-shrink-0 mr-2"></div>
+                    <span className="text-gray-700 text-[13px] md:text-[14px] leading-relaxed">
                       <strong>Exclusividade</strong>: benefícios especiais para
                       vendedores
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
-                    <span className="text-gray-700">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mt-2 flex-shrink-0 mr-2"></div>
+                    <span className="text-gray-700 text-[13px] md:text-[14px] leading-relaxed">
                       <strong>Conexões reais</strong>: comunidade ativa de
                       colecionadores
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
-                    <span className="text-gray-700">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mt-2 flex-shrink-0 mr-2"></div>
+                    <span className="text-gray-700 text-[13px] md:text-[14px] leading-relaxed">
                       <strong>Sempre à frente</strong>: novidades em primeira
                       mão
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
-                    <span className="text-gray-700">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mt-2 flex-shrink-0 mr-2"></div>
+                    <span className="text-gray-700 text-[13px] md:text-[14px] leading-relaxed">
                       <strong>Sua voz importa</strong>: feedback direto para
                       moldar o produto
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#FF6161] rounded-full"></div>
-                    <span className="text-gray-700">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#FF6161] rounded-full mt-2 flex-shrink-0 mr-2"></div>
+                    <span className="text-gray-700 text-[13px] md:text-[14px] leading-relaxed">
                       <strong>Beta exclusivo</strong>: acesso a beta de novas
                       funcionalidades
                     </span>
